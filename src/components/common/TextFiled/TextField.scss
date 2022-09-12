@@ -1,0 +1,50 @@
+.textInput {
+  height: 48px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  &:focus {
+    outline: #e6e6e6;
+    border: 1px solid #6200ee;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+}
+.select {
+  height: 48px;
+  margin-bottom: 20px;
+  margin-left: 7px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  &:focus {
+    outline: #e6e6e6;
+    border: 1px solid #6200ee;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+}
+.input-title {
+  height: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height, or 154% */
+  letter-spacing: 0.26px;
+  color: #555555;
+}
+::placeholder {
+  width: 100%;
+  padding: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: 0.26px;
+  color: #555555;
+}

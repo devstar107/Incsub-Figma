@@ -1,0 +1,20 @@
+export const MAIN_TITLE = "Create Product or Service";
+export const GENERAL_INFO = "General Info";
+export const PRICING_PLANS = "Price Plans";
+export const PRODUCT_NAME = "Product Name";
+export const PLAN_NAME = "Plan Name";
+export const PRODUCT_IMAGE = "Product Image";
+export const OPTIONAL = "(Optional)";
+export const BILLING_TYPE = "Billing Type";
+export const PRICE = "Price";
+export const BILL_EVERY = "Bill Every";
+export const Bill_No = "No. of Billing Cycles";
+export const DESC1 = "Upload a sqaure image that doesn’t exceed 2 MB.";
+export const DESC2 =
+  "Create pricing plans for this product/service. Note that every product/service can have multiple plans.";
+export const DESC3 = "Leave this empty to auto-renew this plan until canceled.";
+export const PLACEHOLDER1 = "E.g. Website Maintainance, SEO, etc.e";
+export const PLACEHOLDER2 = "E.g. Monthly, Lifetime, etc.";
+export const PLACEHOLDER3 = "E.g. 6, 12, etc.";
+export const PLACEHOLDER4 = "0.00";
+export const ADD_PLAN = "ADD_PLAN";

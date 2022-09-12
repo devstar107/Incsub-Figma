@@ -1,0 +1,55 @@
+.footer {
+  text-align: right;
+}
+.btnGroup {
+  display: flex;
+  margin-left: 70%;
+  margin-right: 15%;
+  margin-top: 33%;
+}
+.btn-cancel {
+  background: #ffffff;
+  border: 1px solid #ededed;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 7px 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.26px;
+  color: #000000;
+}
+.btn-cancel:focus {
+  outline: #ededed;
+  border: 1px solid #e6e6e6;
+}
+.btn-create:focus {
+  outline: #ededed;
+  border: 1px solid #e6e6e6;
+}
+.btn-create {
+  background: #f5f5f5;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 7px 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.26px;
+  color: #000000;
+}
+.btn-create:active {
+  background-color: #d4e2ff;
+  outline: #ededed;
+}
+.btn-cancel:active {
+  background-color: #d4e2ff;
+  outline: #ededed;
+}

@@ -1,0 +1,82 @@
+.textInput {
+  width: 100%;
+  height: 48px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  &:focus {
+    outline: #e6e6e6;
+    border: 1px solid #6200ee;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+}
+
+.input-title {
+  height: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height, or 154% */
+  letter-spacing: 0.26px;
+  color: #555555;
+}
+::placeholder {
+  width: 100%;
+  padding: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: 0.26px;
+  color: #555555;
+}
+
+.button {
+  border-radius: 3px 0px 0px 3px;
+  background-color: #d4e2ff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.26px;
+  border: 1px solid #ededed;
+  background: #ffffff;
+  padding: 11px;
+  color: #777777;
+}
+.button:active {
+  background-color: #d4e2ff;
+  outline: #ededed;
+}
+.button:focus {
+  background-color: #d4e2ff;
+  outline: #ededed;
+}
+.button-focuse {
+  border-radius: 3px 0px 0px 3px;
+  background-color: #d4e2ff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.26px;
+  border: 1px solid #ededed;
+  padding: 11px;
+  color: #777777;
+}
+.button-focuse:focus {
+  background-color: #d4e2ff;
+  outline: #ededed;
+}
+
+.button:hover {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.26px;
+  color: #286ef1;
+}

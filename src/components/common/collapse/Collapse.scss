@@ -1,0 +1,208 @@
+.plan {
+  width: 100%;
+  height: 460px;
+}
+.otherplan {
+  width: 100%;
+  height: 50px;
+}
+.content-parent {
+  height: 0px;
+  overflow: hidden;
+}
+
+.content-show {
+  height: 360px;
+}
+.plan-input {
+  margin-left: 5%;
+  width: 40%;
+}
+.plan-price {
+  margin-left: 5%;
+  width: 40%;
+}
+.price-desc {
+  margin-left: 5%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.26px;
+  color: #555555;
+}
+.price-value {
+  margin-left: 17%;
+  position: absolute;
+  padding: 45px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: right;
+  letter-spacing: 0.26px;
+  color: #000000;
+}
+.select {
+  width: 100%;
+  height: 48px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  &:focus {
+    outline: #e6e6e6;
+    border: 1px solid #6200ee;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+}
+.plan-select {
+  width: 45%;
+}
+.plan-every {
+  width: 45%;
+}
+.plan-type {
+  margin-left: 5%;
+  width: 40%;
+}
+.plan-bille {
+  margin-left: 5%;
+  width: 50%;
+  display: flex;
+}
+.plan-bill {
+  margin-left: 5%;
+  width: 40%;
+}
+.collapse-content {
+  display: flex;
+}
+.plan-divider {
+  border: 1px solid #e6e6e6;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.toggle-button {
+  display: flex;
+  font-family: "dev-ui-icon";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  align-items: center;
+  text-align: left;
+  cursor: pointer;
+  letter-spacing: 0.26px;
+  color: #555555;
+}
+.toggle-menu {
+  left: 50%;
+  margin-right: 25px;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: "dev-ui-icon";
+  font-weight: 400;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 0.26px;
+}
+.toggle-arrow {
+  margin-right: 25px;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: "dev-ui-icon";
+  font-weight: 400;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 0.26px;
+}
+.btnAddPlan {
+  margin-left: 5%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.26px;
+  background: #ffffff;
+  border: 1px solid #ededed;
+  border-radius: 4px;
+  padding: 11px 32px;
+}
+.btnAddPlan:hover {
+  margin-left: 5%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.26px;
+  background-color: #ffffff;
+  border: 1px solid #6200ee;
+  border-radius: 4px;
+  padding: 11px 32px;
+}
+.btnAdd {
+  top: 20%;
+  text-align: start;
+}
+.btnAddPlan:focus {
+  outline: #e6e6e6;
+}
+.btnAddPlan:active {
+  background-color: #ffffff;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+.hide-div {
+  margin-left: 5%;
+}
+.labelPlan {
+  width: 7%;
+  margin-left: 5%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 30px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.26px;
+
+  color: #555555;
+}
+.labelPrice {
+  width: 36%;
+  margin-left: 5%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.26px;
+
+  color: #000000;
+}
+.labelStatus {
+  font-family: "Roboto";
+  margin-left: 30%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.26px;
+
+  color: #000000;
+}
